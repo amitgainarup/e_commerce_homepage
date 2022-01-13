@@ -1,6 +1,6 @@
+import 'package:e_commerce_homepage/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:e_commerce_homepage/constants.dart';
-import 'package:e_commerce_homepage/screens/sign_in/sign_in_screen.dart';
 import 'package:e_commerce_homepage/size_config.dart';
 
 // This is the best practice
@@ -70,7 +70,7 @@ class _BodyState extends State<Body> {
                     DefaultButton(
                       text: "Continue",
                       press: () {
-                        Navigator.pushNamed(context, SignInScreen.routeName);
+                        Navigator.pushNamed(context, HomeScreen.routeName);
                       },
                     ),
                     Spacer(),
